@@ -39,14 +39,12 @@ function calculateDueDate(start, hoursNeeded) {
     }
 
     dueDate = skipWeekend(dueDate)
-
     return new Date(dueDate)
 }
 
 module.exports = {
     calculateDueDate
 }
-
 
 //TESTS
 //1 day as turnaround time
