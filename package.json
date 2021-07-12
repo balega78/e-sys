@@ -1,0 +1,16 @@
+{
+  "name": "emarsys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./GB_Emarsys_dueDate.js",
+  "scripts": {
+    "type": "module",
+    "start": "node main",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
