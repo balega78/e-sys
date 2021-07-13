@@ -48,8 +48,8 @@ module.exports = {
 
 //TESTS
 //1 day as turnaround time
-//should result 2021.05.15 9:00 
-console.log(calculateDueDate('may 13, 2021 17:00:00', 8))
+//should result 1971 12:00 
+console.log(calculateDueDate('jan 1, 1971 12:00:00', 8))
 
 //0 turnaround time
 //should result today, midday
